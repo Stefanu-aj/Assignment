@@ -1,0 +1,19 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 55px;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    padding: 16px 20px;
+    background-color: #fff;
+    font-family: Source sans\3, sans-serif, arial;
+}
