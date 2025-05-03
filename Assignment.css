@@ -184,15 +184,14 @@ body {
     font-weight: 500;
     align-items: center;
 }
-.fa-solid-fa-bars {
+.fa-solid fa-bars {
     display: none;
-    font-size: 30px;
-    color: #000;
-    padding-left: 50px;
-    cursor: pointer;
 }
- 
+.container {
+    display: block;
+  }
 
+ 
 @media (max-width: 600px) {
     .log-in-btn {
         display: none;
