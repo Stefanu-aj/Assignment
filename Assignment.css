@@ -32,7 +32,6 @@ body {
     font-size: 15px;
     font-weight: bold;
     color: black;
-    padding: 16px 0px;
     font-family: Source sans\3, sans-serif, arial;
     cursor: pointer;
 }
@@ -185,6 +184,15 @@ body {
     font-weight: 500;
     align-items: center;
 }
+.fa-solid-fa-bars {
+    display: none;
+    font-size: 30px;
+    color: #000;
+    padding-left: 50px;
+    cursor: pointer;
+}
+ 
+
 @media (max-width: 600px) {
     .log-in-btn {
         display: none;
